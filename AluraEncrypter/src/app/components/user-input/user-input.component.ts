@@ -76,7 +76,7 @@ export class UserInputComponent {
       hasAccentedLetter = true;
     }
 
-    if (input.search(/[^\s\w.:,;'"`´ à-üÀ-Ü]/g) == -1) {
+    if (input.search(/[^\s\w.:,;'"`´¡!¿? à-üÀ-Ü]/g) == -1) {
       hasSpecialCharacter = false;
     } else {
       hasSpecialCharacter = true;
