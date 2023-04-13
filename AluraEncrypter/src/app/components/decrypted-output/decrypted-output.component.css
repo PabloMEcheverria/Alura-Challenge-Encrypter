@@ -1,0 +1,527 @@
+.outputField {
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    width: 100%;
+}
+
+.emptyFieldText * {
+    letter-spacing: 0%;
+    margin: 0px;
+    text-align: center;
+}
+
+.emptyFieldText > h2 {
+    color: #343A40;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.emptyFieldText > p {
+    color: #495057;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+.fullFieldText {
+    position: absolute;
+}
+
+.fullFieldText > p, .fullFieldButton > button {
+    font-weight: normal;
+    height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+}
+
+.fullFieldText > p {
+    color: #495057;
+    line-height: 150%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+.fullFieldButton > button {
+    background-color: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    line-height: auto;
+    text-align: center;
+    transition: background-color 0.35s linear;
+}
+
+.fullFieldButton > button:hover {
+    background-color: #EFF1FA;
+    cursor: copy;
+}
+
+@media screen and (max-width: 699px) and (max-aspect-ratio: 0.999) {
+    .outputField {
+        margin: auto;
+        width: 87.2001%;
+    }
+
+    .emptyField {
+        height: 100%;
+        position: relative;
+        width: 100%;
+    }
+
+    .emptyFieldLogo {
+        display: none;
+    }
+
+    .emptyFieldText {
+        height: 65.59142%;
+        padding: 9.78594%;
+        width: 80.42814%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 24px; 
+        margin-bottom: 6.08365%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 16px;
+    }
+
+    .fullField {
+        box-sizing: border-box;
+        height: fit-content;
+        left: 0%;
+        padding: 32px;
+        position: relative;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText {
+        height: fit-content;
+        left: 0px;
+        margin-bottom: 32px;
+        position: relative;
+        top: 0px;
+        width: 279px;
+    }
+
+    .fullFieldText > p {
+        font-size: 24px;
+        left: 0%;
+        position: relative;
+        top: 0%;
+    }
+
+    .fullFieldButton {
+        top: 0px;
+        height: 67px;
+        left: 0px;
+        position: relative;
+        width: 279px;
+    }
+
+    .fullFieldButton > button {
+        font-size: 16px;
+        padding: calc(24px - 1px) 24px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-aspect-ratio: 0.999) {
+    .emptyField {
+        height: 133px;
+        position: relative;
+        width: 688px;
+    }
+    
+    .emptyFieldLogo {
+        display: none;
+    }
+    
+    .emptyFieldText {
+        height: 69px;
+        padding: 32px;
+        width: 624px;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 24px; 
+        margin-bottom: 16px;
+    }
+
+    .emptyFieldText > p {
+        font-size: 16px;
+    }
+
+    .fullField {
+        box-sizing: border-box;
+        height: fit-content;
+        left: 0%;
+        padding: 32px;
+        position: relative;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText {
+        height: fit-content;
+        left: 0px;
+        margin-bottom: 32px;
+        position: relative;
+        top: 0px;
+        width: 624px;
+    }
+
+    .fullFieldText > p {
+        font-size: 24px;
+        left: 0%;
+        position: relative;
+        top: 0%;
+    }
+
+    .fullFieldButton {
+        top: 0px;
+        height: 67px;
+        left: 0px;
+        position: relative;
+        width: 624px;
+    }
+
+    .fullFieldButton > button {
+        font-size: 16px;
+        padding: calc(24px - 1px) 24px;
+    }
+}
+
+@media screen and (max-width: 1299px) and (min-aspect-ratio: 1.001) {
+    .emptyField {
+        height: 48.51694%;
+        left: 8%;
+        position: absolute;
+        top: 25.74152%;
+        width: 84%;
+    }
+    
+    .emptyFieldLogo {
+        display: block;
+        height: 66.37554%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .emptyFieldText {
+        bottom: 0%;
+        height: 26.63755%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 19.67213px; 
+        margin-bottom: 4.761%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 13.11475px;
+    }
+
+    .fullField {
+        height: 93.22033%;
+        left: 8%;
+        position: absolute;
+        top:3.389%;
+        width: 84%;
+    }
+
+    .fullFieldText {
+        height: 88.75%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText > p {
+        font-size: 17px;
+    }
+
+    .fullFieldButton {
+        bottom: 0%;
+        height: 7.61363%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .fullFieldButton > button {
+        border-radius: 18px;
+        font-size: 16px;
+        padding: calc(7.144% - 1px) 7.144%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) and (max-height: 700px) {
+    .emptyField {
+    height: 48.516%;
+    left: 8%;
+    position: absolute;
+    top: 25.741%;
+    width: 84%;
+    }
+
+    .emptyFieldLogo {
+        display: block;
+        height: 66.375%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .emptyFieldText {
+        bottom: 0%;
+        height: 26.637%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 14.4140625px; 
+        margin-bottom: 4.761%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 9.609375px;
+    }
+
+    .fullField {
+        height: 93.220%;
+        left: 8%;
+        position: absolute;
+        top:3.389%;
+        width: 84%;
+    }
+
+    .fullFieldText {
+        height: 88.75%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText > p {
+        font-size: 14.4140625px;
+    }
+
+    .fullFieldButton {
+        bottom: 0%;
+        height: 7.613%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .fullFieldButton > button {
+        border-radius: 14.41406px;
+        font-size: 12px;
+        padding: calc(6.49965% - 1px) 7.144%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) and (min-height: 701px) {
+    .emptyField {
+    height: 48.516%;
+    left: 8%;
+    position: absolute;
+    top: 25.741%;
+    width: 84%;
+    }
+
+    .emptyFieldLogo {
+        display: block;
+        height: 66.375%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .emptyFieldText {
+        bottom: 0%;
+        height: 26.637%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 18px; 
+        margin-bottom: 4.761%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 12px;
+    }
+
+    .fullField {
+        height: 93.220%;
+        left: 8%;
+        position: absolute;
+        top:3.389%;
+        width: 84%;
+    }
+
+    .fullFieldText {
+        height: 88.75%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText > p {
+        font-size: 18px;
+    }
+
+    .fullFieldButton {
+        bottom: 0%;
+        height: 7.613%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .fullFieldButton > button {
+        border-radius: 18px;
+        font-size: 12px;
+        padding: calc(7.144% - 1px) 7.144%;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-height: 900px) {
+    .emptyField {
+    height: 48.516%;
+    left: 8%;
+    position: absolute;
+    top: 25.741%;
+    width: 84%;
+    }
+
+    .emptyFieldLogo {
+        display: block;
+        height: 66.375%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .emptyFieldText {
+        bottom: 0%;
+        height: 26.637%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 19.21875px; 
+        margin-bottom: 4.761%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 12.8125px;
+    }
+
+    .fullField {
+        height: 93.220%;
+        left: 8%;
+        position: absolute;
+        top:3.389%;
+        width: 84%;
+    }
+
+    .fullFieldText {
+        height: 88.75%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText > p {
+        font-size: 19.21875px;
+    }
+
+    .fullFieldButton {
+        bottom: 0%;
+        height: 7.613%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .fullFieldButton > button {
+        border-radius: 19.21875px;
+        font-size: 12.8125px;
+        padding: calc(7.144% - 1px) 7.144%;
+    }
+}
+
+@media screen and (min-width: 1401px) and (min-height:901px) {
+    .emptyField {
+    height: 48.516%;
+    left: 8%;
+    position: absolute;
+    top: 25.741%;
+    width: 84%;
+    }
+
+    .emptyFieldLogo {
+        display: block;
+        height: 66.375%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .emptyFieldText {
+        bottom: 0%;
+        height: 26.637%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .emptyFieldText > h2 {
+        font-size: 24px; 
+        margin-bottom: 4.761%;
+    }
+
+    .emptyFieldText > p {
+        font-size: 16px;
+    }
+
+    .fullField {
+        height: 93.220%;
+        left: 8%;
+        position: absolute;
+        top:3.389%;
+        width: 84%;
+    }
+
+    .fullFieldText {
+        height: 88.75%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 0%;
+        width: 100%;
+    }
+
+    .fullFieldText > p {
+        font-size: 24px;
+    }
+
+    .fullFieldButton {
+        bottom: 0%;
+        height: 7.613%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .fullFieldButton > button {
+        font-size: 16px;
+        padding: calc(7.144% - 1px) 7.144%;
+    }
+}

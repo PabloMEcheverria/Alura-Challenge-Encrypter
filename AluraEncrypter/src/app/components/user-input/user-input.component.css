@@ -1,0 +1,603 @@
+.logoDiv {
+    position: absolute;
+}
+
+.logo {
+    display: block;
+    height: 100%;
+    margin: auto;
+}
+
+form {
+    position: absolute;
+}
+
+#inputText, #inputText::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    vertical-align: super;
+}
+
+#inputText {
+    background-color: #F3F5FC;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    resize: none;
+    top: 0px;
+    width: 100%;
+    word-wrap:break-word;
+}
+
+#inputText:focus {
+    border: none;
+    outline: none;
+}
+
+#inputText::placeholder {
+    font-family: 'Inter', sans-serif;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.warningDiv {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.warningSVG {
+    display: inline-block;
+}
+
+.warning {
+    display: inline-block;
+    font-weight: normal;
+    letter-spacing: 0%;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.buttonDiv {
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.buttonDiv > input {
+    border: none;
+    border-radius: 24px;
+    box-sizing: border-box;
+    line-height: normal;
+    transition: background-color 0.35s linear;
+}
+
+.buttonDiv > input:first-child {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.buttonDiv > input:first-child:hover {
+    background-color: #072B61;
+}
+
+.buttonDiv > input:last-child {
+    background-color: rgb(243, 245, 252);
+    border: 1px solid #0A3871;
+}
+
+.buttonDiv > input:last-child:hover {
+    background-color: rgb(239, 241, 250);
+}
+/*
+media queries:
+for cell phones in portrait orientation (for cell phones in landscape orientation use the same media query as on tablets in portrait orientation)
+@media screen and (min-width: 370px) {
+    
+}
+
+for tablets in portrait orientation
+@media screen and (min-width: 768px) {
+    
+}
+
+for tablets in landscape orientation
+@media screen and (min-width: 1000px) and (min-height 768px) {
+    
+}
+
+for xl desktop monitors with reductions
+@media screen and (min-width: 1300px) (min-height: 600px) {
+    
+}
+
+for xl desktop monitors in fullscreen
+@media screen and (min-width: 1300px) and (min-height: 700px) {
+    
+}
+
+for xxl desktop monitors with reductions
+@media screen and (min-width: 1400px) and (min-height: 800px) {
+    
+}
+
+for xxl desktop monitors in fullscreen
+@media screen and (min-width: 1400px) and (min-height: 1000px) {
+    
+}
+*/
+@media screen and (max-width: 699px) and (max-aspect-ratio: 0.999) {
+    .logoDiv {
+        height: 7.46501%;
+        left: 16px;
+        top: 24px;
+        width: 8.53334%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    form {
+        height: fit-content;
+        margin: auto;
+        min-height: 52.62594vh;
+        position: relative;
+        top: 16.29153vh;
+        width: 91.46667%;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 32px;
+    }
+
+    #inputText {
+        display: block;
+        min-height: 32.04716vh;
+        position: relative;
+    }
+
+    .warningDiv {
+        display: inline-block;
+        height: 1.92927vh;
+        margin-bottom: 4.66473%;
+        position: relative;
+    }
+
+    .warningSVG {
+        height: 88.8889%;
+        margin-right: 2.33237%;
+        position: relative;
+        top: 5.55556%;
+        width: 4.66473%;
+    }
+
+    .warning {
+        font-size: 12px;
+    }
+
+    .buttonDiv {
+        flex-flow: column nowrap;
+        height: 16.93462vh;
+        position: relative;
+        width: 100%;
+    }
+
+    .buttonDiv > input {
+        font-size: 16px;
+        height: 42.40507%;
+        width: 100%;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 24px;
+    }
+
+    .buttonDiv > input:last-child {
+        padding: calc(24px - 1px) 24px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-aspect-ratio: 0.999) {
+    .logoDiv {
+        height: 50.58px;
+        left: 40px;
+        top: 73.42px;
+        width: 31.09px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    form {
+        height: fit-content;
+        left: 5.20834%;
+        min-height: 697px;
+        position: relative;
+        top: 240px;
+        width: 688px;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 32px;
+    }
+
+    #inputText {
+        min-height: 596px;
+        position: relative;
+    }
+
+    .warningDiv {
+        height: 18px;
+        margin-bottom: 16px;
+        position: relative;
+        top: 0px;
+    }
+
+    .warningSVG {
+        height: 16px;
+        margin-right: 8px;
+        width: 16px;
+    }
+
+    .warning {
+        font-size: 12px;
+    }
+
+    .buttonDiv {
+        flex-flow: row nowrap;
+        height: 67px;
+        position: relative;
+        top: 0%;
+
+    }
+
+    .buttonDiv > input {
+        font-size: 16px;
+        width: 332px;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 24px;
+    }
+
+    .buttonDiv > input:last-child {
+        padding: calc(24px - 1px) 24px;
+    }
+}
+
+@media screen and (max-width: 1299px) and (min-aspect-ratio: 1.001) {
+    .logoDiv {
+        aspect-ratio: 2.5;
+        height: 4.6875%;
+        left: 2.77777%;
+        top: 3.70286%;
+    }
+
+    .logo {
+        width: 31.09px;
+    }
+
+    form {
+        aspect-ratio: 0.86734;
+        height: 76.5625%;
+        left: 16.666%;
+        overflow: auto;
+        overflow-x: hidden;
+        top: 16.40625%;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 22.66666px;
+    }
+
+    #inputText {
+        height: 87.11734%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .warningDiv {
+        height: 18px;
+        top:87.11734%;
+    }
+
+    .warningSVG {
+        height: 16px;
+        margin-right: 1.176%;
+        width: 16px;
+    }
+
+    .warning {
+        font-size: 12px;
+    }
+
+    .buttonDiv {
+        flex-flow: row nowrap;
+        height: 8.545%;
+    }
+
+    .buttonDiv > input {
+        border-radius: 18px;
+        font-size: 16px;
+        width: 48.23529%;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 3.53%;
+    }
+    
+    .buttonDiv > input:last-child {
+        padding: calc(3.53% - 1px) 3.53%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) and (max-height: 700px) {
+    .logoDiv {
+        aspect-ratio: 2.5;
+        height: 4.6875%;
+        left: calc(2.777% * 1.19921875);
+        top: 3.90625%;
+    }
+
+    .logo {
+        width: 31.09px;
+    }
+
+    form {
+        aspect-ratio: 0.86736;
+        height: 76.5625%;
+        left: calc(16.666% * 1.19921875);
+        top: 16.40625%;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 19.21875px;
+    }
+
+    #inputText {
+        height: 87.117%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .warningDiv {
+        height: 4.337%;
+        top:87.117%;
+    }
+
+    .warningSVG {
+        height: 14px;
+        margin-right: 1.176%;
+        width: 14px;
+    }
+
+    .warning {
+        font-size: 10px;
+    }
+
+    .buttonDiv {
+        flex-flow: row nowrap;
+        height: 8.545%;
+    }
+
+    .buttonDiv > input {
+        border-radius: 14.41406px;
+        font-size: 12px;
+        width: 48.23529%;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 3.21161%;
+    }
+
+    .buttonDiv > input:last-child {
+        padding: calc(3.21161% - 1px) 3.53%;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) and (min-height: 701px) {
+    .logoDiv {
+        aspect-ratio: 2.5;
+        height: 4.6875%;
+        left: 2.777%;
+        top: 3.90625%;
+    }
+
+    .logo {
+        width: 31.09px;
+    }
+
+    form {
+        aspect-ratio: 0.86736;
+        height: 76.5625%;
+        left: 16.666%;
+        top: 16.40625%;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 24px;
+    }
+
+    #inputText {
+        height: 87.117%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .warningDiv {
+        height: 4.337%;
+        top:87.117%;
+    }
+
+    .warningSVG {
+        height: 14px;
+        margin-right: 1.176%;
+        width: 14px;
+    }
+
+    .warning {
+        font-size: 10px;
+    }
+
+    .buttonDiv {
+        flex-flow: row nowrap;
+        height: 8.545%;
+    }
+
+    .buttonDiv > input {
+        border-radius: 18px;
+        font-size: 12px;
+        width: 48.23529%;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 3.53%;
+    }
+
+    .buttonDiv > input:last-child {
+        padding: calc(3.53% - 1px) 3.53%;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-height: 900px) {
+    .logoDiv {
+        aspect-ratio: 2.5;
+        height: 4.6875%;
+        left: calc(2.777% * 1.19921875);
+        top: 3.90625%;
+    }
+
+    .logo {
+        width: 31.09px;
+    }
+
+    form {
+        aspect-ratio: 0.86736;
+        height: 76.5625%;
+        left: calc(16.666% * 1.19921875);
+        top: 16.40625%;
+    }
+
+    #inputText, #inputText::placeholder {
+        font-size: 25.625px;
+    }
+
+    #inputText {
+        height: 87.117%;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .warningDiv {
+        height: 4.337%;
+        top:87.117%;
+    }
+
+    .warningSVG {
+        height: 16px;
+        margin-right: 1.176%;
+        width: 16px;
+    }
+
+    .warning {
+        font-size: 12px;
+    }
+
+    .buttonDiv {
+        flex-flow: row nowrap;
+        height: 8.545%;
+    }
+
+    .buttonDiv > input {
+        border-radius: 19.21875px;
+        font-size: 12.8125px;
+        width: 48.23529%;
+    }
+
+    .buttonDiv > input:first-child {
+        padding: 3.53%;
+    }
+    
+    .buttonDiv > input:last-child {
+        padding: calc(3.53% - 1px) 3.53%;
+    }
+}
+
+@media screen and (min-width: 1401px) and (min-height:901px) {
+        .logoDiv {
+            aspect-ratio: 2.5;
+            height: 4.6875%;
+            left: 2.777%;
+            top: 3.90625%;
+        }
+
+        .logo {
+            width: 31.09px;
+        }
+
+        form {
+            aspect-ratio: 0.86736;
+            height: 76.5625%;
+            left: 16.666%;
+            overflow: auto;
+            overflow-x: hidden;
+            top: 16.40625%;
+        }
+
+        #inputText, #inputText::placeholder {
+            font-size: 32px;
+        }
+
+        #inputText {
+            height: 87.117%;
+            overflow: auto;
+            overflow-x: hidden;
+        }
+
+        .warningDiv {
+            height: 4.337%;
+            top:87.117%;
+        }
+
+        .warningSVG {
+            height: 16px;
+            margin-right: 1.176%;
+            width: 16px;
+        }
+
+        .warning {
+            font-size: 12px;
+        }
+
+        .buttonDiv {
+            flex-flow: row nowrap;
+            height: 8.545%;
+        }
+
+        .buttonDiv > input {
+            font-size: 16px;
+            width: 48.23529%;
+        }
+
+        .buttonDiv > input:first-child {
+            padding: 3.53%;
+        }
+        
+        .buttonDiv > input:last-child {
+            padding: calc(3.53% - 1px) 3.53%;
+        }
+}
