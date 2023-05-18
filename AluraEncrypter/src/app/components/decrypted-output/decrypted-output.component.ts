@@ -9,12 +9,8 @@ import { Subscription } from 'rxjs';
 })
 export class DecryptedOutputComponent {
   isEmptyInput: boolean = true;
-  textToShow: string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.";
+  textToShow: string;
   inputText: string;
-
-  /**/
-  trollingText: string = "Estimado Pablo n°2 es de mi agrado informarle por medio de la presente que usted ha sido efectivamente trolleado por mi persona.\n Atte. Pablo N°1."
-  /**/
 
   encryptedText: string;
   decryptedText: string;
